@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .truck {
+            width: 150px;
+            position: absolute;
+            top: 0;
+            left: 700px;
+            transition: top 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s, 7s linear 0s;
+            transform: rotate(180deg) scaleY(-1)
+        }
+        .truck1 {
+            width: 150px;
+            position: absolute;
+            right: 0;
+            top: 235px;
+            transition: top 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s, 7s linear 0s;
+        }
+
+        .truck:hover {
+            top: 200px;
+
+        }
+        .truck1:hover {
+            right: 1200px;
+        }
+        #road {
+            width: 100%;
+        }
+    </style>
+    <div class="animate">
+        <div><img id="road" src="road.jpg" alt="Road"></div>
+       <div> <img class="truck" src="truck.png" alt=""></div>
+       <div> <img class="truck1" src="truck.png" alt=""></div>
+    </div>
+</body>
+</html>
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    
+        div{
+            width:100px;
+            height: 100px;
+            background: orange;
+            position: absolute;
+            right:0;            
+            transition: right 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s, background 7s linear 0s;
+        }
+
+
+        .moving{
+            right:1000px;
+            background: red;
+        }
+
+
+        /* .animate{
+            tr
+        } */
+
+    </style>
+</head>
+<body>
+
+    <div id="some">
+
+    </div>
+    <!-- <img id="some" src="truck.png" /> -->
+<!--     
+</body>
+</html> --> 

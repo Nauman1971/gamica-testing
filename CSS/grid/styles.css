@@ -1,0 +1,38 @@
+.row {
+    display: flex;
+    flex-basis: 100%;
+    flex-flow: row nowrap;
+    height: auto;
+}
+.col {
+    background-color: pink;
+    border: 1px;
+    width: 8%;
+    margin: 5px;
+    height: 100vh;
+    z-index: 100;
+}
+.row-container {
+    display: flex;
+    width: 100%;
+    flex-flow: row wrap;
+    margin: 10px;
+}
+.row-6-1 {
+    margin: 10px;
+    width: 47vw;
+    height: 5vh;
+    background-color: brown;
+    z-index: 101;
+    position: relative;
+    top: 10vh;
+}
+.row-6-2 {
+    margin: 10px;
+    width: 47vw;
+    height: 5vh;
+    background-color: brown;
+    z-index: 101;
+    position: relative;
+    top: 10vh;
+}

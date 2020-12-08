@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .z-index {
+            width: 20vh;
+            height: 20vh;
+            position: absolute;
+        }
+        .z-index:nth-child(1) {
+            background-color: green;
+            margin: 20px;
+            z-index: 2;
+        }
+        .z-index:nth-child(2) {
+            background-color: yellow;
+            margin: 30px;
+        }
+        .z-index:nth-child(3) {
+            background-color: peru;
+        }
+        .z-index:nth-child(4) {
+            background-color: red;
+        } 
+         .z-index:nth-child(5) {
+            background-color: rebeccapurple;
+        }
+    </style>
+    <div class="z-index"></div>
+    <div class="z-index"></div>
+    <div class="z-index"></div>
+    <div class="z-index"></div>
+    <div class="z-index"></div>
+</body>
+</html>

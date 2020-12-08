@@ -1,0 +1,177 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h2, h3, h4, h5, p {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight:bold;
+    line-height: 30px;
+}
+.top-navbar {
+    display: block;
+    width: 100%;
+    height: 50px;
+    background-color:rgb(74, 178, 66) ;
+}
+.row {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+.em-ph ul li{
+    display: inline-block;
+    margin-right: 15px;
+
+}
+.em-ph ul li a {
+    color: #fff;
+}
+.em-ph ul li a span {
+    margin-left: 10px;
+}
+.left-border {
+    border-left: 1px dashed rgb(221, 221, 221);
+    margin-right: 15px;
+}
+.appointment {
+    background-color: #fff;
+}
+.appointment > div{
+    height: 100%;
+    padding: 15px;
+}
+.logo {
+    width: 220px;
+
+}
+.dn-nav-row {
+    display: flex;
+    flex-basis: 50%;    
+    padding: 10px;
+}
+.dn-nav-row li {
+    list-style: none;
+    margin-left: 50px;
+}
+.dn-nav-row li a {
+    text-decoration: none;
+    color: black;
+}
+.down-nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+
+
+
+
+.doctors {
+    width: 100%;
+}
+.motive h1 {
+    position: relative;
+    margin: 0 auto;
+    padding: 0px;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight:bold;
+    text-align: center;
+}
+
+.motive-wrapper {
+    font-size: 50px;
+    position: relative;
+    bottom: 320px;
+    color: #fff;
+    width: 60%;
+    height: 100px;
+    margin: auto;
+}
+.footer-wrapper {
+    bottom: 200px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    position: relative;
+    height: 60vh;
+}
+.health-information, 
+.working-hours,
+.emergency-case {
+    flex-basis: 25%;
+    height: 40vh;
+}
+.health-information a {
+    color: black;
+    text-decoration: underline;
+}
+.health-information {
+    background-color: #fff;
+    font-size: 16px;
+    
+}
+.health-information p {
+    width: 70%;
+    font-size: 16px;
+    color: rgb(160, 161, 160);
+    margin-left: 40px;
+}
+.health-information h3 {
+    margin-left: 38px;
+    margin-top: 35px;
+    color: rgb(74, 178, 66);
+}
+.health-information h4 {
+    margin-top: 20px;
+}
+.health-information h4 a{
+    margin-left: 35px;
+    text-decoration: none;
+}
+.working-hours {
+    background-color: black;
+    color: #fff;
+}
+.working-hours h3 {
+    margin-left: 50px;
+    margin-top: 35px;
+}
+.working-hours li {
+    list-style: none;
+    border-bottom: 1px dashed;
+}
+
+.wrkng-hrs-row {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin: 15px;
+    margin-right: 50px;
+}
+.wrkng-hrs-row span {
+    margin-bottom: 10px;
+}
+.emergency-case {
+    background-color: rgb(74, 178, 66);
+    color: #fff;
+}
+.emergency-case p {
+    width: 70%;
+    font-size: 16px;
+    color:#fff;
+    margin-left: 40px;
+}
+.emergency-case h3 {
+    margin-left: 39px;
+    margin-top: 35px;
+}
+.fa, .fas {
+    font-weight: 900;
+    color: #fff;
+}
+

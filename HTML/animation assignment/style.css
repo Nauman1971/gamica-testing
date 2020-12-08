@@ -1,0 +1,37 @@
+.container {
+    width: 500px;
+    height: 500px;
+    position: relative;
+    left: 0;
+    transition: left cubic-bezier(0.25, 0.46, 0.45, 0.94) , 7s linear 0s;
+    bottom: 188px;
+
+}
+.container-moving {
+    left: 74%;
+}
+.car {
+    width: 400px;
+
+}
+.road {
+    width: 100%;
+}
+.wheel1 {
+    left: 66px;
+    position: absolute;
+    top: 93px;
+    width: 53px;
+    transition: transform linear 7s;
+}
+.wheel-moving {
+    transform: rotate(360deg);
+}
+.wheel {
+    position: absolute;
+    top: 94px;
+    left: 293px;
+    width: 51px;
+    transition: transform linear 7s;
+
+}

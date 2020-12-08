@@ -1,0 +1,97 @@
+body {
+    background-color: rgb(51, 49, 47);
+}
+.road {
+    width: 100%;
+    height: 25vh;
+    position: relative;
+    /* top: 300px; */
+}
+.container {
+    position: relative;
+    animation-name: caranimation;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    bottom: 119px;
+}
+@keyframes caranimation {
+    0% {left: 0px; bottom: 119px;}
+    35% {left: 230px; transform: skew(0deg, 0deg) ; bottom: 119px;}
+    50% {left: 500px; transform: skew(0deg, 0deg) ; bottom: 219px;}
+    100% {left: 1200px; bottom: 219px;}
+}
+.car, .car1 {
+    width: 300px;
+    position: absolute;
+}
+.car1 {
+    background-color: none;
+}
+.container .wheel {
+    top: 70px;
+    left: 219px;
+    width: 40px;
+}
+.container .wheel1 {
+    width: 39px;
+    left: 50px;
+    top: 71px;
+}
+.container1 {
+    position: relative;
+    animation-name: caranimation1;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    left: 1230px;
+    bottom: 180px;
+}
+@keyframes caranimation1 {
+    0% {left: 1230px; bottom: 180px;}
+    25% {left: 1000px; bottom: 180px;}
+    50% {left: 600px; bottom: 108px;}
+    100% {left: 0px; bottom: 108px;}
+}
+.container .wheel {
+    position: absolute;
+    animation: wheel 2s linear infinite;
+}
+.container .wheel1 {
+    position: absolute;
+    animation: wheel 2s linear infinite;
+}
+.container1 .wheel {
+    width: 46px;
+    left: 33px;
+    top: 50px;
+}
+.container1 .wheel1 {
+    width: 45px;
+    left: 213px;
+    top: 51px;
+}
+    @keyframes wheel {
+        from {
+            transform: rotate(0deg)
+        }
+        to {
+            transform: rotate(360deg)
+        }
+    }
+    .container1 .wheel {
+        position: absolute;
+        animation: wheel1 2s linear infinite;
+    }
+    .container1 .wheel1 {
+        position: absolute;
+        animation: wheel1 2s linear infinite;
+    }
+    @keyframes wheel1 {
+        from {
+            transform: rotate(360deg)
+        }
+        to {
+            transform: rotate(0deg)
+        }
+    }

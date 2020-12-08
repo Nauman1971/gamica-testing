@@ -1,0 +1,143 @@
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        body{
+            margin: 0;
+
+        }
+        .parent {
+            display: grid;
+            border: 1px solid red;
+            width: 100vw;
+            height: 100vh;
+            grid-template:
+            "a1 a2 a3"    
+            "a4 a5 a5"    
+            "a6 a5 a5" 
+        }
+
+        .icon:nth-child(1) {
+            grid-area: a1;
+            background: orange;
+        }
+
+        .icon:nth-child(2) {
+            grid-area: a2;
+            background: red;
+        }
+
+        .icon:nth-child(3) {
+            grid-area: a3;
+            background: green;
+        }
+
+        .icon:nth-child(4) {
+            grid-area: a4;
+            background: skyblue;
+        }
+
+        .icon:nth-child(5) {
+            grid-area: a5;
+            background: purple;
+        }
+
+        .icon:nth-child(6) {
+            grid-area: a6;
+            background: palegoldenrod;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="parent">
+
+
+        <div class="icon">A</div>
+        <div class="icon">B</div>
+        <div class="icon">C</div>
+        <div class="icon">D</div>
+        <div class="icon">E</div>
+        <div class="icon">F</div>
+
+
+
+    </div>
+
+</body>
+
+</html>
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        
+        body{
+            margin:0;
+        }
+      
+        #myFlexBox{
+            display: flex;
+            width:50%;
+            height:200px;
+            /* height:calc(100vh - 4px); */
+            border:2px solid red;
+            flex-direction: row;
+            justify-content: center;
+            flex-wrap:wrap;
+        }
+
+       .item:nth-child(2) {
+           flex:2;
+       }
+
+        .item{
+            min-width: 200px;
+            border:2px solid blue;
+            flex:1;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <div id="myFlexBox">
+
+        <div class="item">Apple</div>
+        <div class="item">Banana</div>
+        <div class="item">Carrot</div>
+        
+    </div>
+    
+</body>
+</html> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+

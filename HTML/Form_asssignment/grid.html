@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .parent {
+            display: grid;
+            width: 50%;
+            height: 60vh;
+            border: 1px solid black;
+            grid-template: 
+            "a b1 a1"    
+            "a b a1"    
+            "c c c"
+        }
+        .parent > * {
+            margin: 5px;
+        }
+        .green-cls{
+            grid-area: a;
+            background-color: chartreuse;
+            border-radius: 5px;
+        }
+        .green-cls1{
+            grid-area: a1;
+            background-color: chartreuse;
+            border-radius: 5px;
+        }
+        .skyblue-cls{
+            grid-area: b;
+            background-color: skyblue;
+            border-radius: 5px;
+        }
+        .skyblue-cls1{
+            grid-area: b1;
+            background-color: skyblue;
+            border-radius: 5px;
+        }
+        .purple-cls {
+            grid-area: c;
+            border-radius: 5px;
+            background-color: rebeccapurple;
+        }
+    </style>
+    <div class="parent">
+        <div class="green-cls"></div>
+        <div class="green-cls1"></div>
+        <div class="skyblue-cls"></div>
+        <div class="skyblue-cls1"></div>
+        <div class="purple-cls"></div>
+    </div>
+</body>
+</html>
